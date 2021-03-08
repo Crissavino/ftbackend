@@ -3,16 +3,61 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1851bd84-085f-43e3-8dc3-9c3721bb046e" name="Default Changelist" comment="" />
+    <list default="true" id="1851bd84-085f-43e3-8dc3-9c3721bb046e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/GameController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/DaysAvailables.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Game.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Location.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Token.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_09_155524_tokens.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_10_101025_add_online_to_users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_22_091151_create_positions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_22_091218_create_days_availables_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_22_120430_create_locations_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_23_192426_add_gender_to_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_24_124054_add_latlng_to_positions_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MatchController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Match.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Positions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -138,6 +183,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1mgy06rUKkxwcWWFC4IzIdrhaOJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -169,21 +215,66 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609929303906</updated>
-      <workItem from="1609929305253" duration="12023000" />
+      <workItem from="1609929305253" duration="12120000" />
+      <workItem from="1610203328578" duration="9645000" />
+      <workItem from="1610354820875" duration="122000" />
+      <workItem from="1610385859514" duration="612000" />
+      <workItem from="1611249040473" duration="2680000" />
+      <workItem from="1611313146242" duration="21000" />
+      <workItem from="1611316593003" duration="12228000" />
+      <workItem from="1611568814439" duration="75000" />
+      <workItem from="1611685236152" duration="2616000" />
+      <workItem from="1611909518577" duration="2243000" />
+      <workItem from="1612004772634" duration="11520000" />
+      <workItem from="1612775465470" duration="339000" />
+      <workItem from="1612819627617" duration="1648000" />
+      <workItem from="1613814014886" duration="7000" />
+      <workItem from="1613819049913" duration="614000" />
+      <workItem from="1615026589822" duration="12466000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1920" y="161" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1615142547433">
+      <screen x="1680" y="131" width="1920" height="1080" />
+    </state>
+    <state x="1920" y="161" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1615142547433" />
+    <state x="2378" y="430" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1615140362608">
+      <screen x="1680" y="131" width="1920" height="1080" />
+    </state>
+    <state x="2378" y="299" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1610206435915" />
+    <state x="2378" y="430" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1680.1050/1680.131.1920.1080@1680.131.1920.1080" timestamp="1615140362608" />
+    <state x="1205" y="-781" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1680.1050/507.-1080.1920.1080@507.-1080.1920.1080" timestamp="1611317104032" />
+    <state x="611" y="291" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1615115517565" />
+    <state x="1276" y="-760" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0" timestamp="1611326809206">
+      <screen x="507" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="1276" y="-760" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0/0.0.1680.1050/507.-1080.1920.1080@507.-1080.1920.1080" timestamp="1611326809206" />
     <state x="2339" y="309" width="602" height="490" key="find.popup" timestamp="1609951219191">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="2339" y="309" width="602" height="490" key="find.popup/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1609951219191" />
-    <state x="2305" y="262" width="670" height="676" key="search.everywhere.popup" timestamp="1609935395636">
-      <screen x="1680" y="0" width="1920" height="1080" />
+    <state x="547" y="255" width="670" height="658" key="search.everywhere.popup" timestamp="1615114053870">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="2305" y="262" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1609935395636" />
+    <state x="500" y="-818" width="671" height="677" key="search.everywhere.popup/0.0.1680.1050/-125.-1080.1920.1080@-125.-1080.1920.1080" timestamp="1611911258795" />
+    <state x="2305" y="262" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1610206548023" />
+    <state x="1132" y="-818" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050/507.-1080.1920.1080@507.-1080.1920.1080" timestamp="1611336442564" />
+    <state x="547" y="255" width="670" height="658" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1615114053870" />
   </component>
 </project>

@@ -21,6 +21,9 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'isFullySet',
+        'online',
+        'genre',
     ];
 
     /**
@@ -42,7 +45,33 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    public function AuthAccessToken(){
+    public function AuthAccessToken()
+    {
         return $this->hasMany(OauthAccessToken::class);
+    }
+
+    public function tokens()
+    {
+        return $this->hasMany(Token::class);
+    }
+
+    public function positions()
+    {
+        return $this->belongsToMany(Positions::class);
+    }
+
+    public function daysAvailables()
+    {
+        return $this->hasMany(DaysAvailables::class);
+    }
+
+    public function location()
+    {
+        return $this->hasOne(Location::class);
+    }
+
+    public function games()
+    {
+        return $this->hasMany(Game::class);
     }
 }
